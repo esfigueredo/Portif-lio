@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+
+body {
+    height: 100vh;
+    background-color: var(--text-black-color);
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 10rem;
+    height: 10rem;
+}
+
+
+:root{
+    /** Cores**/
+    --background-color-button: #00ff08;
+    --background-gray-color:#E5E5E5;
+    --background-white-color:##F7F7F7;
+    --background-div:#C4C4C4;
+    --text-pink-color:#FF4081;
+    --text-gray-color:#5c5c5c;
+    --text-green-color:#009688;
+    --text-white-color:#FFFFFF;
+    --text-black-color:#000000;    
+    --hoover-color:#F08A60   
+
+}
