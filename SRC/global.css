@@ -1,9 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
-    
 }
 
 body {
@@ -21,19 +20,18 @@ h2.titulo span {
     color: var(--text-green-color);
 }
 
-
 .btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color:var(--background-color-button) ;
+    background-color: var(--background-color-button);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
 }
 
-.btn-contato button:hover {
+button:hover {
     box-shadow: 0px 0px 8px var(--background-color-button);
     transform: scale(1.10);
 }
@@ -52,18 +50,16 @@ h2.titulo span {
     display: flex;
 }
 
-
-:root{
+:root {
     /** Cores**/
     --background-color-button: #00ff08;
-    --background-gray-color:#E5E5E5;
-    --background-white-color:##F7F7F7;
-    --border-hover-box:#949494;
-    --text-pink-color:#FF4081;
-    --text-gray-color:#5c5c5c;
-    --text-green-color:#00ff08;
-    --text-white-color:#FFFFFF;
-    --text-black-color:#000000;    
-    --hoover-color:#F08A60   
-
+    --background-gray-color: #E5E5E5;
+    --background-white-color: ##F7F7F7;
+    --border-hover-box: #949494;
+    --text-pink-color: #FF4081;
+    --text-gray-color: #5c5c5c;
+    --text-green-color: #00ff08;
+    --text-white-color: #FFFFFF;
+    --text-black-color: #000000;
+    --hoover-color: #F08A60
 }

@@ -1,0 +1,35 @@
+/* ESPECIALDADES */
+
+section.especialidades {
+    padding: 40px 4%;
+    margin-top: 200px;
+}
+
+section.especialidades .flex {
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    color: var(--text-white-color);
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px var(--border-hover-box);
+}
+
+.especialidades .especialidades-box i {
+    font-size: 70px;
+    color: var(--text-green-color);
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/* FIM ESPECIALIDADES */
