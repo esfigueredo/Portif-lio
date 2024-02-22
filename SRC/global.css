@@ -54,9 +54,9 @@ button:hover {
     /** Cores**/
     --background-color-button: #00ff08;
     --background-gray-color: #E5E5E5;
-    --background-white-color: ##F7F7F7;
+    --background-shadow-section: #ffffff1d;
+    --background-overlay: #000000b8;
     --border-hover-box: #949494;
-    --text-pink-color: #FF4081;
     --text-gray-color: #5c5c5c;
     --text-green-color: #00ff08;
     --text-white-color: #FFFFFF;
