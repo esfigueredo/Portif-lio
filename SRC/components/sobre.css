@@ -25,18 +25,6 @@ section.sobre {
     text-align: justify;
 }
 
-.sobre .txt-sobre .social button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: var(--background-color-button);
-    font-size: 23px;
-    cursor: pointer;
-    margin: 0 5px;
-    transition: .2s;
-}
-
 section.sobre .flex {
     align-items: center;
     gap: 60px;

@@ -1,0 +1,31 @@
+footer{
+    padding: 0 4%;
+    box-shadow: 0 0 40px 10px var(--background-shadow-section);
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .btn-social {
+    display: flex;
+    align-items: center;
+}
+
+footer .line-footer p i{
+    color: var(--text-green-color);
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    text-decoration: none;
+    color: var(--text-white-color);
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 3px solid var(--text-green-color);
+}

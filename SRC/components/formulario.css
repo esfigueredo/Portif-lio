@@ -1,0 +1,45 @@
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: var(--background-input);
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: var(--text-white-color);
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: var(--background-color-button);
+    color: var(--text-black-color);
+    font-weight: 700;
+    transition: .2s;
+    cursor: pointer;
+}
+
