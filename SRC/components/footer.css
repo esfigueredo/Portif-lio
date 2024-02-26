@@ -1,5 +1,5 @@
 footer{
-    padding: 0 4%;
+    padding: 40 8%;
     box-shadow: 0 0 40px 10px var(--background-shadow-section);
 }
 
@@ -10,6 +10,7 @@ footer .flex {
 footer .btn-social {
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 footer .line-footer p i{
@@ -28,4 +29,18 @@ footer .line-footer {
 
 .borda {
     border-top: 3px solid var(--text-green-color);
+}
+
+@media screen and (max-width: 460px) {
+    footer .flex{
+        flex-direction: column;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+
+    footer .btn-social {
+        display: inline-block;
+    }
 }

@@ -44,3 +44,17 @@ section.portfolio .flex{
 .overlay:hover {
     opacity: 1;
 }
+
+@media screen and (max-width: 460px) {
+    section.portfolio {
+        padding: 40px 8%;
+    }
+
+    .img-port {
+        width: 100%;        
+    }
+
+    section.portfolio .flex{
+        gap: 20px;
+    }
+}

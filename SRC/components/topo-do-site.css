@@ -2,10 +2,10 @@ section.topo-do-site {
     padding: 40px 4%;
 }
 
-section.topo-do-site .flex{
+section.topo-do-site .flex {
     align-items: center;
     justify-content: center;
-    gap: 90px;  
+    gap: 90px;
 }
 
 .topo-do-site .img-topo-site img {
@@ -13,13 +13,13 @@ section.topo-do-site .flex{
     height: 80%;
     background-color: var(--background-color-button);
     border-radius: 30px;
-    box-shadow: 0px 0px 10px var(--background-color-button);
+    box-shadow: 0px 0px 30px 5px var(--background-color-button);
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-.topo-do-site .txt-topo-site h1 {
-    color:  var(--text-white-color);
+.topo-do-site h1 {
+    color: var(--text-white-color);
     font-size: 42px;
     line-height: 40px;
 }
@@ -28,25 +28,41 @@ section.topo-do-site .flex{
     color: var(--text-green-color);
 }
 
-.topo-do-site .txt-topo-site p, li{
+.topo-do-site .txt-topo-site p {
     color: var(--text-white-color);
     text-align: justify;
     margin: 40px 0px;
 }
 
-.topo-do-site .txt-topo-site li {
-    text-align: center;
-    list-style-type: none;
-}
-
-
 
 @keyframes flutuar {
     0% {
-        top: 0;
+        top: -30px;
     }
-    100%{
-        top: 50px;
+
+    100% {
+        top: 30px;
     }
 }
 
+@media screen and (max-width: 460px) {
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+}

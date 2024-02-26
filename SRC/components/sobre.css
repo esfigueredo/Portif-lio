@@ -32,8 +32,31 @@ section.sobre .flex {
 
 .img-sobre img{
     width: 100%;
-    border-radius: 50%;
+    border-radius: 5%;
     background-color: var(--background-color-button);
 }
 
-/* FIMSOBRE */
+@media screen and (max-width: 460px) {
+    .sobre .flex {
+        flex-direction: column-reverse;
+    }
+
+    section.sobre {
+        padding: 40px 8%;
+    }
+
+    section.sobre .flex {
+        gap: 30px;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+}

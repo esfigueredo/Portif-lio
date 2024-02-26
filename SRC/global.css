@@ -62,11 +62,28 @@ button:hover, form .btn-enviar input:hover {
     display: flex;
 }
 
+@media screen and (max-width: 460px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .img-logo-edu-dev {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
 :root {
     /** Cores**/
     --background-color-button: #00ff08;
     --background-gray-color: #E5E5E5;
     --background-shadow-section: #ffffff1d;
+    --background-black-menu: #000000;
     --background-overlay: #000000b8;
     --background-input: #242424;
     --border-hover-box: #949494;
